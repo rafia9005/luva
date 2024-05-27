@@ -1,4 +1,4 @@
-const supabase = require("../../utils/supabase.js");
+import supabase from "../../utils/supabase.js";
 
 async function Login(req, res) {
   const { email, password } = req.body;
